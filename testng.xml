@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="false">
+    <test verbose="2" preserve-order="true" name="Emulator">
+        <parameter name="emulator" value="true"></parameter>
+        <parameter name="platformName" value="Android"></parameter>
+        <parameter name="udid" value="emulator-5554"></parameter>
+        <parameter name="deviceName" value="Pixel_2_API_27"></parameter>
+<!--        <parameter name="systemPort" value="10000"></parameter>-->
+<!--        <parameter name="chromeDriverPort" value="11000"></parameter>-->
+        <classes>
+            <class name="runners.MyTestNGRunnerTest">
+            </class>
+        </classes>
+    </test>
+</suite>

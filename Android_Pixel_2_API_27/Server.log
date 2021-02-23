@@ -1,0 +1,5 @@
+2021-02-22 06:33:44:112 [Appium] Welcome to Appium v1.20.2
+2021-02-22 06:33:44:115 [Appium] Non-default server args:
+2021-02-22 06:33:44:116 [Appium]   sessionOverride: true
+2021-02-22 06:33:44:117 [Appium]   logFile: /Users/salilchhabra/IdeaProjects/AppiumCucumberFramework/Android_Pixel_2_API_27/Server.log
+2021-02-22 06:33:44:176 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
